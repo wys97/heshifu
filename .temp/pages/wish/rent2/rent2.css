@@ -1,0 +1,249 @@
+.container-rent2 {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  background: #222224;
+}
+
+.rent2-swiper {
+  margin: 22px 60px;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.r2s_image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.rent2-title{
+  display:block;
+  margin: 50px 60px 0 60px;
+  font-size: 32px;
+  color: #F2D3AB;
+}
+
+.rent2-time-view{
+  margin: 30px 60px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.rent2-tv-title{
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(242,211,171,0.5);
+}
+
+.rent2-tv-content{
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.rent2-tvc-view{
+  margin: 8px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rent2-tvcv_image{
+  width: 24px;
+  height: 24px;
+}
+.rent2-tvcv-text{
+  margin-left: 20px;
+  font-size: 32px;
+  color: #F2D3AB;
+}
+
+.rent2-other-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rent2_other-input-view{
+  flex: 1;
+  /* padding-top:6px; */
+  margin-left:10px;
+}
+
+.rent2-tvc-view2{
+  margin: 10px 0;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rent2-tvcv-input{
+  /* width: 300px; */
+  margin-left: 10px;
+  font-size: 30px;
+  color: #F2D3AB;
+  background-color: #222224;
+  text-align: left;
+}
+.other-input-line{
+  margin-left: 10px;
+  height: 2px;
+  background: #373739;
+}
+
+.rent2-tv-line{
+  margin-top: 10px;
+  height: 2px;
+  background: #373739;
+}
+
+
+.rent2-name-view{
+  margin: 40px 60px;
+  display: flex;
+  flex-direction: column;
+}
+.rent2-nv-title{
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(242,211,171,0.5);
+}
+.rent2-nv-name-input{
+  margin: 19px 0 4px;
+  margin-left: -5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #F2D3AB;
+  background-color: #222224;
+  text-align: left;
+}
+.at-input{
+  padding:8px 0 8px;
+
+}
+.at-input input {
+  color: #F2D3AB;
+}
+
+.placeholder{
+  color: #F2D3AB;
+}
+.placeholderClass{
+  color: #F2D3AB;
+}
+
+
+
+.rent2-picker-view{
+  margin: 38px 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #373739;
+  padding-bottom:32px;
+}
+.rent2-pv-top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rent2-pvt-title{
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(242,211,171,0.5);
+}
+.rent2-pvt-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rent2-pvt-content{
+  margin-left: 20px;
+  font-size: 30px;
+  color: #F2D3AB;
+}
+.rent2-pvt-image{
+  margin-left: 27px;
+  width: 13px;
+  height: 21px;
+}
+
+/* .rent2-pv-line{
+  margin-top: 40px;
+  height: 2px;
+  background: #373739;
+} */
+
+.rent2-line{
+  width:100%;
+  height:100px;
+}
+
+.bottom-gap{
+  margin-bottom: 170px;
+}
+
+.rent2-submit{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  line-height: 90px; 
+  font-size: 34px;
+  font-weight: bold;
+  color: #2D2D34;
+  background: #FEC575;
+  text-align: center;
+}
+
+
+
+
+
+
+/* 组件默认的样式 */
+.weui-picker__hd{
+  background-color: #2E2E2F;
+}
+.weui-picker__action{
+    color: #F2D3AB;
+    font-size: 30px;
+}
+.weui-picker__action:first-child{
+    color: #F2D3AB;
+    font-size: 30px;
+}
+.weui-picker__bd{
+    background: #2E2E2F;
+}
+.weui-picker__item{
+    color: #F2D3AB;
+    font-size: 35px;
+}
+.weui-picker__mask{
+    background: -webkit-linear-gradient(top, rgba(45,45,46, 0.9) 20%, rgba(45,45,46, 0.8) 30%, rgba(45,45,46, 0.6) 40%, rgba(45,45,46, 0) 50%, rgba(45,45,46, 0.6) 60%,rgba(45,45,46, 0.8) 70%, rgba(45,45,46, 0.9) 100%);
+    background: linear-gradient(180deg, rgba(45,45,46, 0.9) 20%, rgba(45,45,46, 0.8) 30%, rgba(45,45,46, 0.6) 40%,  rgba(45,45,46, 0) 50%,rgba(45,45,46, 0.6) 60%, rgba(45,45,46, 0.8) 70%, rgba(45,45,46, 0.9) 100%);
+
+}
+.weui-picker__hd:after{
+    border-bottom: 1px solid #0d0d0e;
+}
+
+.weui-picker__indicator:before{
+    border-top: 1px solid #666;
+}
+.weui-picker__indicator:after{
+    border-bottom: 1px solid #666;
+}
+
+
+
+
+
+/* input的默认字体样式
+::-webkit-input-placeholder { color:#F2D3AB; opacity: 0.4; font-size:26px;}
+::-moz-placeholder { color:#F2D3AB; opacity: 0.4; } 
+:-ms-input-placeholder { color:#F2D3AB;opacity: 0.4;  }
+:-moz-placeholder { color:#F2D3AB;opacity: 0.4;  }  */

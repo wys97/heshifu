@@ -1,0 +1,113 @@
+  .orderList{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    background: #2F2F30;
+    margin-bottom: 22px;
+    color: #F2D3AB;
+  }
+  .tradeMessage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tradeName{
+    width: 460px;
+    font-size: 32px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+  }
+  .state_of_payment{
+    font-size: 28px;
+  }
+  .merchandise_news{
+    display: flex;
+    align-items: center;
+    padding: 24px 0 28px;
+    border-bottom: 4px #999 dotted;
+    justify-content: space-between;
+  }
+  .merchandise_news_state_4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+  }
+  .greensImg{
+    width: 160px;
+    height: 130px;
+    margin-right:20px; 
+  }
+  .merchandise_left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .dish_name{
+    font-size: 30px;
+  }
+  .number{
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .Time{
+    font-size: 24px;
+    color:#8B8782;
+  }
+  .price{
+    font-size: 32px;
+    text-align: right;
+    
+  }
+  .orderList_buttom{
+    width: 100%;
+    display: flex;
+    flex-direction:row-reverse; 
+  
+  }
+  .orderList_btn{
+   width: 160px;
+   height: 54px;
+   line-height: 54px;
+   text-align: center;
+   margin-top: 22px;
+  }
+.orderList_btn_img{
+  width: 100%;
+  height: 100%;
+}
+
+  .noHistory{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .noHistory_color{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+
+  }
+  
+  .Loadedtip{
+    text-align: center;
+    color: #999;
+    font-size: 28px;
+  }
+  .displayNone{
+    display: none;
+  }

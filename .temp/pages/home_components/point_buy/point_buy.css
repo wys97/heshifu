@@ -1,0 +1,334 @@
+
+.Dierct{
+  color: #F2D3AB;
+  box-sizing: border-box;
+  padding: 30px 40px 0;
+  position: fixed;
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pt2-point {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px; 
+}
+
+.pt2pt_head {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+}
+.pt2pt_head_title{
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+}
+.pt2ol-phonePoint{
+  width: 59px;
+  height: 59px;
+  line-height:59px;
+  text-align: center;
+}
+
+.pt2ol-phonePoint-img{
+  width: 100%;
+  height: 100%;
+}
+.pt2ol-arrow-right {
+  width: 17px;
+  height: 26px;
+  margin-left: 24px;
+  flex-shrink: 0;
+}
+.pt2pt_head_distance{
+  color: #8B8782;
+  font-size: 24px;
+  width: 118%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+.pt2pt_head_number{
+  margin-left:18px; 
+  color: #C4AB8C;
+}
+.pt2pt_distance_unit{
+  color: #8B8782;
+}
+.pt2pt_head_placeholder{
+  margin: 0 16px;
+}
+.pt2pt_head_adds{
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pt2pt_head_time{
+  color: #8B8782;
+  font-size: 24px;
+}
+
+.Dierct .pt2-swiper{
+width: 100%;
+height: 205px;
+margin: 30px 0;
+border-radius: 20px;
+}
+
+.Dierct .pt2-swiper .pt2_SwiperItem{
+  width: 100%;
+  height: 205px;
+  border-radius: 20px;
+}
+
+.pt2_swiper_image{
+width: 100%;
+height: 205px;
+}
+
+.Dierct_tabbar{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+
+}
+
+.Dierct_tabbar_payment{
+width: 25%;
+text-align: left;
+font-size: 36px;
+color: #F2D3AB;
+font-weight: 600;
+}
+
+.Dierct_tabbar_evaluate{
+width: 25%;
+text-align: left;
+font-size: 30px;
+color: #8B8782;
+}
+
+.po2ol_payment_btn{
+  width: 100%;
+  height: 86px;
+  background: #5B5144;
+  margin: 102px 0 0;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 86px;
+  font-size: 34px;
+  color: #DFB881;
+}
+
+
+
+/* 支付金额样式 */
+.pt2-order2{
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  /* top: 480px; */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 58%;
+  background: #2F2F30;
+  border-top: 3px solid #48413B;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding: 45px 40px 0;
+  z-index: 30;
+  transition: height 0.18s;
+  -webkit-transition: height 0.18s; 
+}
+
+
+.pt2-order2_true{
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  /* top: 20px; */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 98%;
+  background: #2F2F30;
+  border-top: 3px solid #48413B;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding: 45px 40px 0;
+  z-index: 30;
+  transition: height 0.3s;
+  -webkit-transition: height 0.3s; 
+}
+
+
+
+
+
+.pt2-order2-closeBtn-wrap{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pt2_closeBtn{
+  width: 27px;
+  height: 27px;
+  padding: 16px;
+  z-index: 90;
+}
+
+.pt2ol-title2{
+  font-size: 30px;
+  color: #A7A39E;
+  margin-top:16px; 
+}
+.pt2o-line2{
+  width: 100%;
+  height: 90px;
+  margin-top:40px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #414142; 
+  display: flex;
+  align-items: center;
+}
+.pt2o-line_rmb2{
+  width: 10%;
+  text-align: left;
+  font-size: 60px;
+  color: #F2D3AB;
+  font-weight: bold;
+}
+.pt2ol-amount2{
+  padding-left: 18px;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+}
+
+.po2ol_payment_btn2{
+  width: 100%;
+  height: 86px;
+  margin: 102px 0;
+  line-height: 86px;
+  text-align: center;
+}
+.po2ol_payment_btn2_img{
+  width: 100%;
+  height: 100%;
+}
+
+.pt2ol_coupon2{
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  border-bottom: 3px solid #414142; 
+  align-items: center;
+  color: #F2D3AB;
+  font-size: 32px;
+}
+.pt2ol_coupon_right_wrap{
+  display: flex;
+  align-items: center;
+}
+
+.pt2ol_coupon_price2{
+  font-size: 36px;
+  color: #FF9C43;
+}
+.pt2ol_coupon_price3{
+  font-size: 32px;
+  color: #A7A39E;
+}
+
+
+.pt2ol-arrow-right2 {
+  width: 14px;
+  height: 24px;
+  margin-left: 24px;
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+.pt2ol_price_amount2{
+  width: 100%;
+  margin: 30px 0;
+  text-align: right;
+}
+.pt2ol_amount_title2{
+  color: #F2D3AB;
+  font-size: 32px;
+
+}
+.pt2ol_amount_price2{
+  color: #F2D3AB;
+  font-size: 36px;
+  margin-left:30px;
+  font-weight: 600; 
+}
+
+/* 休息时的图片 */
+.inRest_img_wrap2{
+  width: 672px;
+  height: 628px;
+  text-align: center;
+}
+.inRest_img2{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.at-input{
+  position: none;
+  padding: 0;
+  color: #F2D3AB;
+  background-color: #2F2F30;
+  margin-left: 0;
+  margin-bottom: 0;
+  position: none;
+}
+
+input{
+-webkit-appearance: textfield;
+background-color: #2F2F30;
+-webkit-rtl-ordering: logical;
+user-select: text;
+cursor: auto;
+padding: 0;
+border-width: 0;
+border-style: inset;
+border-color: initial;
+border-image: initial;
+}
+.weui-input .at-input__input{
+width: 100%;
+height: 100%;
+}
+.at-input input{
+width: 100%;
+height: 90px;
+color: #FF9C43;
+font-size: 36px;
+}
+
+
+
+
+

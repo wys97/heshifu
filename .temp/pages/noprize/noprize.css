@@ -1,0 +1,38 @@
+ 
+.no-prize-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    /* vertical-align: middle;
+    text-align: center; */
+}
+
+.no-prize-content{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* max-width: 600px; */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-prize-img{
+    width: 100%;
+    height: auto;
+}
+
+.no-prize-close{
+    margin-top: 40px;
+    width: 52px;
+    height: 52px;
+}
+
+

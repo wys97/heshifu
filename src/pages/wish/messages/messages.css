@@ -1,0 +1,64 @@
+.container-messages {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  background: #222224;
+}
+
+
+.message-item {
+  margin: 40px 62px 0 70px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mi-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mit-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgba(242,211,171,0.3);
+}
+
+.mit-time {
+  font-size: 24px;
+  font-weight: 400;
+  color:rgba(242,211,171,0.3);
+}
+
+.mi-content {
+  margin-top: 22px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #F2D3AB;
+}
+
+.mi-line{
+  margin-top: 40px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(47,47,48);
+}
+
+
+
+.no-message-view{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nmv-img{
+  width: 100%;
+  max-width: 672px;
+  height: auto;
+}

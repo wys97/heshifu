@@ -1,0 +1,203 @@
+.container-points {
+  width: 100%;
+  height: 100%;
+  background: #222224;
+  color: #F2D3AB;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.points-header {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 30px 0 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.points-swiper{
+  width: 100%;
+  height: 205px;
+  border-radius: 30px;
+}
+.points-swiper_Item{
+  width: 100%;
+  height: 205px;
+  border-radius: 30px;
+
+}
+.points_swiper_image{
+  width: 100%;
+  height: 205px;
+  border-radius: 30px;
+
+}
+
+.nearbyShop{
+  font-size: 34px;
+  margin: 26px 0 12px;
+}
+
+
+.ph-city {
+  height: 100px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+  
+}
+
+.ph-arrow-right {
+  width: 18px;
+  height: 22px;
+  margin-left: 23px;
+}
+
+.points-list {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.pl-item {
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  flex: 4;
+  margin: 16px 0;
+}
+.pl-item:last-child{
+  margin-bottom: 0;
+}
+
+.plih-img_wrap{
+  flex: 1;
+  text-align: center;
+  height: 158px;
+}
+.plih-img{
+  width: 170px;
+  height: 158px;
+  border-radius: 16px;
+}
+
+.pli_item_content{
+  border-bottom: 1px solid #303030;
+  padding: 0px 0 30px;
+  margin-left: 25px;
+  flex: 3;
+}
+
+.pliht-view{
+  font-size: 34px;
+  font-weight: bold;
+  display: inline-flex;
+
+  align-items: center;
+  text-align: left;
+}
+
+.pliht-view_name{
+  display: block;
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 34px;
+}
+
+.pliht-nearest {
+  margin-left: 10px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+
+  border-radius: 5px;
+  border: #FFDCD4 2px solid;
+}
+.pliht-hasdesk{
+  margin-left: 10px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: #B4E8E8 2px solid;
+}
+
+.pliht-distance {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  color: #FF9C43;
+}
+.points_distance_unit{
+  color: #8B8782;
+  font-size: 24px;
+}
+.pliht-order-btn {
+  box-sizing: border-box;
+  font-size: 26px;
+  font-weight: bold;
+
+  width: 160px;
+  height: 60px;
+  line-height: 61px;
+  border-radius: 30px;
+  border: #ffdacc 2px solid;
+  text-align: center;
+}
+
+.pliht-order-btn-rest {
+  box-sizing: border-box;
+  font-size: 26px;
+  font-weight: bold;
+  width: 160px;
+  height: 60px;
+  line-height: 61px;
+  border-radius: 30px;
+  border: #F5F5F5 2px solid;
+  text-align: center;
+  
+}
+.pli-address_wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 22px;
+}
+.pli-address {
+  width: 65%;
+  font-size: 22px;
+  font-weight: 500;
+  color: #8B8782;
+}
+
+.pli-point-time {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #8B8782;
+}
+
+.pli-time-title{
+  margin-right: 20px;
+}
+
+.more-btn {
+  display: flex;
+  align-items: center;
+}
+
+.points_noServiceImg{
+  width: 672px;
+  height: 628px;
+}

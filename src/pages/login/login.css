@@ -1,0 +1,139 @@
+
+.login{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  color: #F2D3AB;
+  background:#222224;
+  padding: 55px 50px 0;
+}
+.contentTitle{
+    width:100%;
+    margin: 0 auto;
+    padding:0 9px;
+    font-size: 46px;
+}
+.login_font_26{
+  font-size: 26px;
+  color:#8B8782;
+}
+
+.at-input{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 22px;
+
+}
+.input{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 22px;
+}
+.weui-input{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 26px;
+}
+.at-input__container{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 26px;
+}
+.at-input::after{
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 26px;
+}
+.input_wrap{
+  width: 100%;
+  box-sizing: border-box;
+  margin:0 auto;
+  margin-top: 90px;
+}
+.phoneInput{
+  box-sizing: border-box;
+  border-bottom: 3px #39393B solid;
+  padding: 10px 30px;
+  height: 72px;
+  font-size: 32px;
+  color: #F2D3AB;
+}
+
+.securityCode{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  border-bottom: 3px #39393B solid;  
+  padding: 20px 0 20px 30px;
+  margin-top: 82px; 
+}
+.input_securityCode{
+  width: 60%;
+}
+
+
+.securityCode_btn1{
+  width: 39%;
+  height: 42px;
+  font-size: 28px;
+  text-align: center;
+  line-height:42px;
+  color: #FF9C43;
+  border-left: 2px solid #545457;
+}
+.securityCode_btn2{
+  width:  39%;
+  height: 42px;
+  font-size: 28px;
+  text-align: center;
+  line-height:42px;
+  color: rgb(133, 129, 124);
+  border-left: 2px solid #545457;
+ 
+}
+.securityCode_btn3{
+  width:  39%;
+  height: 42px;
+  font-size: 28px;
+  text-align: center;
+  line-height:42px;
+  color: #FF9C43;
+  border-left: 2px solid #545457;
+  
+
+}
+.hint{
+  display: block;
+  width: 60%;
+  height: 60px;
+  font-size: 28px;
+  color: #FF9C43;
+  text-align: center;
+  margin: 10px auto;
+}
+.hint2{
+  display: block;
+  width: 60%;
+  height: 60px;
+  font-size: 28px;
+  color: #FF9C43;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.login_btn1{
+  width: 100%;
+  height: 80px;
+  margin-top: 90px;
+}
+.login_btn_img{
+  width: 100%;
+  height: 100%;
+}

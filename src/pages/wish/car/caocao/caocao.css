@@ -1,0 +1,99 @@
+.Caocao{
+    font-size: 32px;
+    color: #CBB191;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px 0;
+    font-weight: bold;
+}
+.Caocao_swiper{
+    width: 100%;
+    height: 204px;
+    text-align: center;
+    line-height: 204px;
+    margin: 0 auto;
+}
+.Caocao_SwiperItem{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Caocao_swiper_image{
+    width: 100%;
+    height: 100%;
+}
+
+.Caocao_title{
+    margin: 20px 0 40px;
+}
+
+.Caocao_CarType_swiper_wrap{
+    width: 100%;
+    height: 414px;
+    margin: 0 auto;
+    position: relative;
+}
+.Caocao_CarType_swiper, .Caocao_CarType_SwiperItem, .Caocao_CarType_swiper_image{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper_icon_nxt_left{
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 55px;
+    height:114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    z-index: 20;
+}
+
+.swiper_icon_nxt_right{
+    position: absolute;
+    right: 0;
+    top: 150px;
+    width: 55px;
+    height:114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    z-index: 20;
+}
+.swiper_icon_nxt_left_img, .swiper_icon_nxt_right_img{
+    width: 18px;
+    height:30px;
+}
+
+.caocao_introduce_module_wrap{
+    margin-bottom: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.caocao_introduce_module_img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.caocao_btn_apply_wrap{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+
+}
+.caocao_btn_apply_img{
+    width: 100%;
+    height: 100%;
+}

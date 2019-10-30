@@ -1,0 +1,126 @@
+.container-rent {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  background: #222224;
+}
+
+.rent-swiper {
+  margin: 22px 60px;
+  /* height: 204px; */
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.rs_image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.rent-time-view{
+  margin: 55px 60px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.rent-tv-title{
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(242,211,171,0.5);
+}
+
+.rent-tv-content{
+  margin-top: 10px;
+}
+.rent-tvc-view{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rent-tvcv_image{
+ 
+  width: 24px;
+  height: 24px;
+}
+.rent-tvcv-text{
+  margin-left: 20px;
+  font-size: 32px;
+  color: #F2D3AB;
+}
+.rent-tvcv-more{
+  margin-left: 5px;
+  font-size: 28px;
+  color: rgba(242,211,171,0.5);
+}
+
+
+.rent-tv-line{
+  margin-top: 8px;
+  height: 2px;
+  background: #373739;
+}
+
+
+.rent-name-view{
+  margin: 40px 60px;
+  display: flex;
+  flex-direction: column;
+}
+.rnv-title{
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(242,211,171,0.5);
+}
+.rent-name-input{
+  margin: 18px 0 8px;
+  margin-left: -5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #F2D3AB;
+  background-color: #222224;
+  text-align: left;
+}
+.at-input input {
+  color: #F2D3AB;
+}
+
+.placeholder{
+  color: #F2D3AB;
+}
+.placeholderClass{
+  color: #F2D3AB;
+}
+
+.rent-more-view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rent-more-image{
+  margin-top: 24px;
+  margin-bottom: 160px;
+  width: 510px;
+  height: 60px;
+}
+
+
+.rent-submit{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  line-height: 90px; 
+  font-size: 34px;
+  font-weight: bold;
+  color: #2D2D34;
+  background: #FEC575;
+  text-align: center;
+}
+
+
+/* input的默认字体样式 */
+::-webkit-input-placeholder { color:#F2D3AB; opacity: 0.4; font-size:26px;}
+::-moz-placeholder { color:#F2D3AB; opacity: 0.4; } 
+:-ms-input-placeholder { color:#F2D3AB;opacity: 0.4;  }
+:-moz-placeholder { color:#F2D3AB;opacity: 0.4;  } 

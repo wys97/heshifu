@@ -1,0 +1,370 @@
+
+.container-take {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222224;
+}
+
+/*订单列表*/
+.meals-swiper {
+  width: 100%;
+  height: 91vh;
+}
+
+.meals-item {
+  margin: 30px;
+  /* margin-bottom: 40px; */
+  height: 90%;
+  background-color: #2F2F30;
+  border-radius: 10px;
+}
+
+.status-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2.5px solid #48413B;
+}
+
+.status-title {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #F2D3AB;
+}
+.status-content {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 26px;
+  font-weight: normal;
+  color: #8B8782;
+}
+.svc-btn {
+  color: #FF9C43;
+  text-decoration: underline;
+}
+
+.code-title {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #A7A39E;
+}
+.code-code {
+  font-size: 100px;
+  font-weight: normal;
+  color: #F2D3AB;
+}
+
+/*分割线*/
+.space-img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/*取餐信息*/
+.point-take {
+  margin: 0px 25px 5px 30px;
+}
+
+.pt-first{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.pt-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #F2D3AB;
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.pt-navigator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ptn-navigat {
+  width: 59px;
+  height: 59px;
+  padding: 12px;
+}
+.ptn_phone {
+  width: 59px;
+  height: 59px;
+  padding: 12px;
+}
+
+.pti-supply {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.supply-time {
+  font-size: 28px;
+  font-weight: 500;
+  color:#A7A39E;
+}
+.ptis-ver{
+  display: flex;
+  flex-direction: column;
+}
+
+.supply-addr {
+  font-size: 24px;
+  font-weight: 500;
+  color: #A7A39E;
+}
+
+
+/*订单信息*/
+.meal-info {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 30px;
+  /* font-size: 28px;
+  color: rgba(16, 17, 17, 1); */
+}
+.meal-name{
+  font-size: 30px;
+  font-weight: 500;
+  color: #F2D3AB;
+}
+.meal-num{
+  font-size: 28px;
+  color: #F2D3AB;
+}
+
+.take-coupon {
+  margin: 0 40px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: #39393B 2px solid;
+  border-bottom: #39393B 2px solid;
+}
+
+.take-coupon-title{
+  font-size: 32px;
+  font-weight: 500;
+  color: #F2D3AB;
+}
+
+.slec-coupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coupon-name {
+  color: #FF9C43;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.arrow-right {
+  width: 10px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.total-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 32px;
+  font-weight: bold;
+  color: #F2D3AB;
+  margin: 12px 40px;
+}
+
+.price-icon {
+  font-size: 26px;
+  color: #F2D3AB;
+}
+
+.price-total {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+/*支付渠道*/
+.pay-channel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel-icon {
+  width: 41px;
+  height: auto;
+}
+
+.channel-info {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-name {
+  font-size: 32px;
+  font-weight: 500;
+  color: #F2D3AB;
+}
+
+.channel-desc {
+  font-size: 20px;
+  font-weight: 500;
+  color: #8B8782;
+}
+
+.sleced-btn {
+  width: 34px;
+  height: auto;
+}
+
+/*订单支付信息*/
+.order-info-list {
+  margin: 10px 40px 10px 40px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.oil-text {
+  color: #A7A39E;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 2px 0;
+}
+
+/*固定底部的按钮*/
+.bottom-btn {
+  /* width: 95%; */
+  height: 150px;
+  background: linear-gradient(0deg, rgba(47, 47, 47, 1) 80%, rgba(47, 47, 47, 0));
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  bottom: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.pay-btn {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 90%;
+  height: 84px;
+  border-radius: 42px;
+  background: #F8CC8F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 33px;
+  font-weight: 500;
+  color: #443024;
+}
+
+/*缺省页*/
+.default-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-meal {
+  width: 670px;
+  height: auto;
+  margin-top: 20px;
+}
+.order-btn {
+  width: 500px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  margin-top: 46px;
+  background: #F8CB8E;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4B3628;
+  text-align: center;
+}
+
+.go-history-order{
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.history-order-text{
+  font-size: 28px;
+  color: #DFB881;
+  margin-right: 5px;
+}
+
+
+.past-order {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+}
+
+.past-arrow {
+  width: 12px;
+  height: 19px;
+  margin-left: 16px;
+}
+
+
+/*翻页按钮*/
+.pages-left-btn{
+  position: absolute;
+  top: 400px;
+  left: 0;
+  z-index: 10;
+}
+
+.pb-left{
+width: 79px;
+height: 179px;
+}
+
+.pages-right-btn{
+  position: absolute;
+  top: 400px;
+  right: 0;
+  z-index: 10;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+#app{
+    background: #222224;
+}
+.taro-tabbar__tabbar{
+   height: 0;
+}
+.weui-tabbar__item .weui-tabbar__icon{
+    width: 64px;
+    height: 75px;
+    padding: 3px 0 7px;
+}
+.weui-bar__item_on{
+    background: #222224;
+}
+
+.weui-tabbar:before{
+    border-top:1px solid #222224 !important;
+}
+.at-input{
+    padding:0 !important;
+    background-color: #222224;
+}
+
+/* input-placeholder  */
+::-webkit-input-placeholder { color:#F2D3AB; opacity: 0.4; }
+::-moz-placeholder { color:#F2D3AB; opacity: 0.4; } 
+:-ms-input-placeholder { color:#F2D3AB;opacity: 0.4;  }
+:-moz-placeholder { color:#F2D3AB;opacity: 0.4;  } 

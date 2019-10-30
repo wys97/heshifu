@@ -1,0 +1,86 @@
+.content_car{
+    width: 100%;
+    height: 100%;
+    box-sizing : border-box;
+    padding: 40px 60px 0;
+    color:#CBB191;
+    font-size: 36px;
+}
+
+.content_car_swiper{
+    width: 100%;
+    height: 204px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.content_car_SwiperItem{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.content_car_swiper_image{
+    width: 100%;
+    height: 100%;
+}
+
+
+.car_title{
+    margin: 40px 0 26px;
+}
+
+.car_service_delivery{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background: #2F2F30;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+
+.car_service_delivery_placeholder{
+    width: 2px;
+    height: 70px;
+    background: #3E3C3A;
+}
+
+.area_fuban_wrap, .area_zuche_wrap{
+    width: 120px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+.area_zuche_img, .area_fuban_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.car_cooperation_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+    box-sizing: border-box;
+
+}
+
+
+.car_cooperation_content{
+    width: 180px;
+    height: 211px;
+    text-align: center;
+    line-height: 211px;
+    margin: 10px 0px;
+    
+}
+.car_cooperation_content_img{
+    width: 100%;
+    height: 100%;
+}

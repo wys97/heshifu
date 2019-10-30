@@ -1,0 +1,275 @@
+.ApplyForAfterSales{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #222224;
+    color: #F2D3AB;
+}
+
+.ApplyForAfterSales_content{
+    width: 94%;
+    margin: 0 auto;
+    
+}
+.checked_number{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2F2F30;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+.checked_img{
+    width: 38px;
+    height: 38px;
+}
+.checked_title_text{
+    font-size: 30px;
+    margin-left:26px; 
+}
+.checked_dishesList{
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2F2F30;
+    padding: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 34px;
+}
+.checked_dishesList2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2F2F30;
+    padding: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.refund_reason_wrap{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2F2F30;
+    padding: 26px;
+}
+
+.refund_reason{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2F2F30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    padding: 20px 0px 30px;
+    border-bottom: 1px solid #757373;
+}
+.refund_reason_type{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.refund_reason_text{
+    font-weight: bold;
+}
+.refund_reason_checked{
+    color: #8B8782;
+    margin-right: 18px; 
+}
+.refund_reason_arrow{
+    width: 18px;
+    height: 22px;
+    margin-top: 5px
+}
+.refund_reason_replenish{
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    background: #2A2A2B;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.refund_reason_input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    font-size: 24px;
+    color: #A7A39E;
+    /* border: 1px #727272 solid; */
+    background: #2A2A2B;
+}
+/* 取消聚焦是的边框 */
+textarea{
+    outline:none;
+    border: none;
+}
+.refund_reason_confirm_button{
+    height: 100px;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.confirm_button_left{
+    box-sizing: border-box;
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background: #3D3D3E;
+    color: #F2D3AB;
+    height: 100%;
+}
+.refund_price_size{
+    font-size: 48px;
+}
+.refund_reminder{
+    margin-left: 18px;
+
+}
+.refund_reminder_all_costs{
+    font-size: 22px;
+}
+.refund_path{
+    font-size: 18px;
+    color: #8B8A8A;
+}
+.confirm_button_right{
+    width: 46%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+.submit_btn_img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*弹框*/
+.reasonOption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20px;
+}
+.reasonOption_wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background:#222224;
+}
+.reasonOption_title_hint{
+    font-size: 32px;
+    padding: 20px;
+    color: #A7A39E;
+    background:#3C3C3D;
+
+}
+.reasonOption_contnet_list{
+    background: #2F2F30;
+    padding: 16px 30px 0;
+}
+.reasonOption_list_message{
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #39393B;
+    padding: 24px 0;
+}
+.reasonOption_list_message:last-child{
+    border-bottom: none;
+}
+
+.reasonOption_icon{
+    width: 36px;
+    height: 36px;
+}
+.reasonOption_button{
+    margin-top: 20px;
+    background:#2F2F30;
+    padding: 20px 0; 
+    font-size: 34px;
+    text-align: center;
+    color: #FF9C43;
+
+    
+}
+
+.taro-checkbox_checked {
+
+    border-radius: 30px;
+}
+
+
+
+/*提交成功显示的样式*/
+.submitSuccess{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #222224;
+    z-index: 30;
+    display: flex;
+    /* align-items: center; */
+}
+.submitSuccess_wrap{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.submitSuccess_img{
+    width: 100%;
+    height: auto;
+}
+
+.submitSuccess_content{
+    font-size: 36px;
+    color:#DFB881; 
+}
+
+.submitSuccess_botton{
+    width: 500px;
+    height: 80px;
+    line-height: 80px;
+    margin: 160px auto 0;
+   text-align: center;
+}
+
+.submitSuccess_botton_img{
+    width: 100%;
+    height: 100%;
+}

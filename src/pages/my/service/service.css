@@ -1,0 +1,76 @@
+.AfterService_content{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 40px 0; 
+    background: #222224;
+}
+
+.service_card{
+  background: #2F2F30;
+  width: 100%;
+  height: auto;
+  border-radius: 14px; 
+  box-sizing: border-box;
+  padding: 40px 30px;
+  color: #F2D3AB;
+}
+.Imgsize{
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.top_remind{
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px; 
+  border-bottom: 3px #39393B solid;
+}
+.f-34{
+  font-size: 32px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.f-24{
+  font-size: 24px;
+ color: #8B8782;
+}
+.f-28{
+  font-size: 24px;
+ color: #8B8782;
+}
+.self-help{
+  font-size: 30px;
+  margin: 30px 0 36px 0;
+  font-weight: 600;
+
+}
+.self_help_list{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.service_option{
+    text-align: center;
+}
+.Imgsize2{
+  width: 80px;
+  height: 80px;
+}
+
+.phoneService{
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  bottom: 200px;
+  left: 10%;
+}
+.phoneService_img{
+  width: 100%;
+  height: 100%;
+}

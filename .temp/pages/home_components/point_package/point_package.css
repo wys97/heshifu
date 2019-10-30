@@ -1,0 +1,199 @@
+
+.Order{
+  color: #F2D3AB;
+  box-sizing: border-box;
+  padding: 30px 40px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.order-point {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px; 
+}
+
+.order_head {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+}
+.order_head_title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 44px;
+}
+
+.order_head_name{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.order-phonePoint-img{
+  width: 59px;
+  height: 59px;
+}
+.order-arrow-right {
+  width: 17px;
+  height: 26px;
+  margin-left: 24px;
+  flex-shrink: 0;
+}
+.order_head_distance{
+  color: #8B8782;
+  font-size: 24px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+.order_head_number{
+  margin-left:18px; 
+  color: #C4AB8C;
+}
+.order_distance_unit{
+  color: #8B8782;
+}
+.order_head_placeholder{
+  margin: 0 16px;
+}
+.order_head_adds{
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.order_head_time{
+  display: flex;
+  width: 108%;
+  flex-wrap: wrap;
+  color: #8B8782;
+  font-size: 24px;
+}
+
+.Order .order-swiper{
+width: 100%;
+height: 205px;
+margin: 20px 0;
+border-radius: 20px;
+}
+.Order .order-swiper .order_SwiperItem{
+  width: 100%;
+  height: 205px;
+}
+.order_swiper_image{
+width: 100%;
+height: 205px;
+}
+
+
+.Order_dishes_details{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 40px 0 0;
+}
+
+.Order_item{
+  width: 100%;
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+.Order_item:last-child{
+  margin: 0;
+}
+
+.Order_img{
+  width: 226px;
+  height: 158px;
+  margin-right: 28px;
+}
+.Order_image{
+  width: 100%;
+  height: 100%;
+}
+
+.Order_info_wrap{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+  padding: 24px 0;
+  border-bottom: 2px solid #303030; 
+
+}
+.Order_name{
+  width: 100%;
+  font-size: 36px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Order_remark{
+  width: 80%;
+  color: #8B8782;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.Order_price_wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.Order_btn{
+  width: 120px;
+  height: 55px;
+  line-height: 55px;
+}
+
+.Order_btn_img{
+  width: 100%;
+  height: 100%;
+}
+.Order_sprice{
+  font-size: 40px;
+  color: #FF9C43;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.Order_sprice_flag{
+  font-size: 26px;
+
+}
+.Order_oprice{
+  font-size: 24px;
+  color: #8B8782;
+  text-decoration: line-through;
+}
+
+
+
+/* 休息时的图片 */
+.inRest_img_wrap{
+  width: 672px;
+  height: 628px;
+  text-align: center;
+}
+.inRest_img{
+  width: 100%;
+  height: 100%;
+}
+

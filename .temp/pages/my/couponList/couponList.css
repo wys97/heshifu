@@ -1,0 +1,103 @@
+.CouponList{
+    width: 100%;
+    height: 100%;
+}
+
+.CouponCouponList{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 28px 36px 0;
+    padding-bottom: 100px;
+    box-sizing: border-box; 
+
+}
+.couponList_wrap{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.couponList_title{
+    display: flex;
+    font-size: 22px;
+    padding: 30px 26px 16px;
+    justify-content: space-between;
+    align-items: center;
+    color: #727272;
+    background: #2F2F30;
+     border-top: 2px solid #48413B;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.coupon_price{
+    font-size:30px; 
+    color:#FF9C43;
+}
+.font_68{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.coupon_scope{
+    text-align: center;
+    font-size: 24px;
+    color: #8B8782;
+}
+
+.coupon_price_color{
+    color:#FF9C43;
+}
+.coupon_name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px; 
+    color: #F2D3AB;
+}
+.useBtn{
+    width: 130px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.useBtn_img{
+    width: 100%;
+    height: 100%;
+}
+.coupon_gapLine_img{
+    width: 100%;
+    height: auto;
+
+}
+.coupon_shop_astrict{
+    font-size: 24px;
+    color: #727272;
+    padding: 20px 30px 20px;
+    background: #2F2F30;
+    margin-top: -16px;
+    border-radius:16px;
+    /* border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; */
+  
+}
+.noCouponData{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noCoupon_img{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}

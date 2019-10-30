@@ -1,0 +1,36 @@
+.container-summer {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  background-color: #E2F7A9;
+}
+
+.summer-top-img {
+  width: 100%;
+  height: auto;
+}
+
+.summer-middle-view {
+  margin: 45px 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.smmv-text{
+  margin-bottom: 40px;
+  font-size: 34px;
+  font-weight: 500;
+  color: rgb(88,122,24);
+  line-height: 57px;
+  font-family: 'SourceHanSansSC-Regular';
+}
+
+
+.summer-bottom-img {
+  width: 100%;
+  height: auto;
+}

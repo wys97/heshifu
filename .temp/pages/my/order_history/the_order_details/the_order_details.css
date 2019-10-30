@@ -1,0 +1,259 @@
+
+.TheOrderDetails_hTML{
+  width: 100%;
+  height: 100%;
+  background: #222224;
+  padding: 40px 40px 0;
+  box-sizing: border-box;
+  color: #F2D3AB;
+}
+
+.TheOrderDetails {
+  background: #2F2F30;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border-top: 3px solid #48413B;
+}
+
+.top_message {
+  box-sizing: border-box;
+  width: 600px;
+  height: 100%;
+  padding: 30px 0 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.padding_18{
+  padding:14px 0 22px;
+}
+
+.details_state_of_payment {
+  font-size: 56px;
+}
+
+.thank {
+  font-size: 26px;
+  color: #A7A39E;
+}
+
+.refundDispose_titl{
+  font-size: 40px;
+  
+}
+
+.details_state_unpaid_title{
+  font-size: 46px;
+}
+.details_state_unpaid_hint{
+  font-size: 26px;
+  color: #A7A39E;
+}
+.details_state_unpaid_cancel_btn{
+  color: #FF9C43;
+  text-decoration: underline;
+}
+
+.details_state_unpaid_payment_btn{
+  width: 300px;
+  text-align: center;
+  height: 60px;
+  line-height:60px;
+  margin: 26px auto 20px;
+}
+.details_state_unpaid_payment_btn_img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.refundDispose_img{
+  width: 100%;
+  height: 58px;
+  margin-top:20px; 
+}
+.revocation_btn{
+  width: 230px;
+  height: 60px;
+  line-height: 68px;
+  text-align: center;
+  margin: 36px auto 20px;
+}
+
+.revocation_btn_img{
+  width: 100%;
+  height: 100%;
+}
+
+.TakeFoodCode {
+  color: #A7A39E;
+  font-size: 30px;
+}
+
+.spacing_img {
+  width: 100%;
+  height: auto;
+}
+
+.location {
+  font-size: 24px;
+  margin: 0 40px;
+  margin-top: -12px;
+  text-align: left;
+  padding: 24px 0 14px;
+}
+
+.rade_name_wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.rede_name{
+  width: 74%;
+  font-size: 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.location_right{
+  width: 26%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.rade_time {
+  width:100%;
+  font-size: 28px;
+  color: #A7A39E;
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.rade_time_content{
+  font-size: 22px;
+}
+.rade_distance{
+  margin-right: 20px;
+}
+
+.site {
+  width: 100%;
+  color: #A7A39E;
+}
+
+
+.location_img_wrap {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.margin-l_18{
+  margin-left: 22px;
+
+}
+
+.location_img{
+  width: 100%;
+  height: 100%;
+}
+.commodityList {
+  height: 100%;
+  margin: 0 40px;
+  margin-top: -12px;
+  box-sizing: border-box;
+  padding:22px 0 16px;
+}
+
+.classify {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title_name {
+  font-size: 30px;
+}
+
+.classify_number {
+  font-size: 28px;
+}
+
+.classify_price {
+  font-size: 28px;
+}
+
+.discount_coupon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 2px #39393B solid;
+  border-bottom: 2px #39393B solid;
+}
+
+.subtract {
+  color: #F2D3AB;
+  font-size: 26px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.total_title {
+  font-size: 30px;
+}
+
+.total_symbol {
+  color: #FF9C43;
+  font-size: 26px;
+}
+
+.total_price {
+  color: #FF9C43;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.createTime_orderNo {
+  font-size: 24px;
+  text-align: left;
+  color: #A7A39E;
+  padding: 18px 40px 50px;
+}
+
+.service_botton {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  margin: 60px auto 20px;  
+  text-align: center;
+}
+.service_botton_img{
+  width: 100%;
+  height: 100%;
+}
+
+.service_hint{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 120px;
+  font-size: 30px;
+  color: #A7A39E;
+
+}

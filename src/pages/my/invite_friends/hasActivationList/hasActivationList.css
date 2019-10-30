@@ -1,0 +1,64 @@
+.HasActivationList{
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px 0;
+    box-sizing: border-box;
+  color: #F2D3AB;
+    background: #222224;
+
+}
+.HasActivationList_content{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.HasActivationList_content:last-child{
+    border-bottom: none;
+}
+
+.HasActivationList_content_left{
+    display: flex;
+    flex-direction: column;
+}
+.HasActivationList_content_phone{
+    font-size: 36px;
+  color: #F2D3AB;
+
+}
+.HasActivationList_content_name{
+    font-size: 26px;
+  color: #F2D3AB;
+}
+.HasActivationList_content_right{
+    font-size: 28px;
+    color: #DF4335;
+}
+
+/* 没有邀请到好友 */
+.noListData_style{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.noListData_style_img{
+    width: 470px;
+    height: 374px;
+}
+.noListData_text{
+
+    font-size: 30px;
+}

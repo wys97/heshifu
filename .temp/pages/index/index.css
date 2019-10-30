@@ -1,0 +1,137 @@
+.container-index {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.PointPackage{
+  position: relative;
+}
+.PointBuy{
+  position: relative;
+}
+
+
+.nopay-view{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 502;
+}
+.npv-content{
+  width: 80%;
+  /* height: 520px; */
+  background-color: #2F2F30;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.npvc_img{
+  margin-top: 50px;
+  width: 142px;
+  height: 126px;
+}
+.npvc_info{
+  margin-top: 45px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #F2D3AB;
+}
+.npvc_todo{
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #FF9C43;
+}
+.npvc_gopay{
+  margin-top: 90px;
+  width: 80%;
+  height: 86px;
+  line-height: 84px;
+  text-align: center;
+  border-radius: 43px;
+  background-color: #EDBB77;
+  font-size: 34px;
+  font-weight: bold;
+  color: #443024;
+  margin-bottom: 40px;
+}
+.npvc_close{
+  margin-top: 40px;
+  width: 52px;
+  height: 52px;
+}
+
+
+
+
+/* 新版本弹框 */
+.newEdition{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 800;
+  background: rgba(0, 0, 0, 0.7);
+  text-align:center;
+  overflow-y: auto;
+  
+}
+
+.newEdition_content{
+  text-align: center;
+  /* overflow-y: auto; */
+  position: relative;
+  margin-bottom:300px;
+}
+
+.newEdition_conetent_bg{
+    width:100%;
+    height:auto;
+}
+
+.newEdition_goEarn_btn_wrap{
+  width:402px;
+  height:70px;
+  line-height:70px;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  left: 50%;
+  margin-left:-201px;
+  margin-bottom:50px;
+  z-index: 20;
+
+}
+.newEdition_goEarn_btn_img{
+  width:100%;
+  height:100%;
+}
+.newEdition_close_btn_wrap{
+  width:52px;
+  height:52px;
+  text-align:center;
+  line-height: 52px;
+  position: absolute;
+  left: 50%;
+  margin-left:-26px;
+  z-index: 80;
+
+}
+
+.newEdition_close_btn_img{
+  width:100%;
+  height:100%;
+}

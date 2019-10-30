@@ -1,0 +1,333 @@
+
+.container-book {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #222224;
+  padding-bottom: 91px;
+  height: 100vh;
+  color: #F2D3AB;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.book-point{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #222224;
+}
+
+.bp-info {
+  margin-right: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.bpi_name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.bpin-name{
+  font-size: 34px;
+  font-weight: bold;
+  color: #F2D3AB;
+  margin: 10px 0;
+}
+
+.bpi-address {
+ display: block;
+  width: 100%;
+  margin: 3px 0 8px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #8B8782;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ 
+}
+.bpi-address-distance{
+  color: #C4AB8C;
+  margin:0 10px;
+}
+.margin-r-18{
+  margin-right: 18px;
+}
+.margin_10{
+  margin: 0 10px 0 8px;
+}
+.bpi_businessHours{
+  width: 110%;
+  font-size: 24px;
+  color: #8B8782;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.booking_unit{
+  color: #8B8782;
+}
+
+.bp-navigator {
+  display: flex;
+  align-items: center;
+}
+
+.bpn-img {
+  width: 59px;
+  height: 59px;
+}
+.bpn-text1{
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(16, 17, 17);
+}
+
+
+.book-gap{
+  width: 100%;
+  height: 15px;
+  display: block;
+  background-color: rgb(248, 248, 248);
+}
+
+
+.book-style{
+  padding-left: 25px;
+  padding-right: 30px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bs-title{
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(16, 17, 17);
+}
+.bs-content{
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(16, 17, 17);
+}
+
+/*订单信息*/
+.order-detail {
+  box-sizing: border-box;
+  width: 100%;
+  background: #2F2F30;
+  border-top: 3px #48413B solid;
+  padding: 0 40px;
+  padding-top: 30px;
+  border-top-right-radius: 60px;
+  border-top-left-radius: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 76%;
+}
+
+/* .detail-head {
+  margin-left: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  color: rgba(114, 114, 114, 1);
+} */
+
+.order-meal {
+  box-sizing: border-box;
+  margin: 25px 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.order-icon {
+  /* margin-left: 30px; */
+  width: 164px;
+  height: 127px;
+  border-radius: 10px;
+}
+
+.order-info {
+  flex: 1;
+
+  margin: 0 0px 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-title {
+  width: 100%;
+  font-size: 36px;
+  font-weight: bold;
+  color: #F2D3AB;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.order-subheading{
+  width: 65%;
+  display: block;
+  font-size: 24px;
+  color: #A7A39E;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.order-desc {
+  margin-top: 15px;
+  font-size: 24px;
+  color: rgba(114, 114, 114, 1);
+  overflow: hidden;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.price-count {
+  height: 100%;
+  /* margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-price {
+  font-size: 34px;
+  font-weight: 500;
+  color: #FF9C43;
+}
+
+.order-count {
+  display: flex;
+  align-items: center;
+}
+
+.count-btn {
+  width: 46px;
+  height: 46px;
+}
+.count-addBtn{
+  width: 48px;
+  height: 48px;
+}
+.count {
+  font-size: 32px;
+  color: #F2D3AB;
+  margin: 0 30px;
+}
+
+.meal-line{
+  width: 100%;
+margin: 0 ;
+height: 2px;
+background-color: #39393B;
+}
+
+
+.order_meal_coupons{
+  margin: 36px 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.order_meal_coupons_title{
+  font-size: 32px; 
+}
+
+.order_meal_coupons_right{
+  display: flex;
+  align-items: center;
+}
+
+.order_meal_coupons_price{
+  box-sizing: border-box;
+  font-size: 32px;
+  color: #A7A39E; 
+  margin-right: 18px;
+  padding-bottom: 4px;
+}
+
+.order_meal_coupons_price2{
+  font-size: 32px;
+  color: #FF9C43; 
+  margin-right: 18px;
+}
+
+.order_meal_coupons_img{
+  width: 18px;
+  height: 20px;
+}
+
+
+
+.fee-view {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.fee-content {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fc-name {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+}
+
+.fc-total {
+  font-size: 32px;
+  font-weight: bold;
+  color: #F2D3AB;
+}
+
+.fc-flag {
+  font-size: 26px;
+  color: #F2D3AB;
+  /* margin-left: 20px; */
+}
+
+.fc-num {
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+/*底部按钮*/
+.btn-view {
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+}
+
+.booking-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10px;
+  width: 100%;
+  height: 100%;
+}
